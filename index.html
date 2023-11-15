@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Clipboard landing page</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 box-border m-0">
+    <!-- Start Hero -->
+    <section
+      id="home"
+      class="pt-20 bg-[url('/images/bg-header-mobile.png')] bg-top bg-no-repeat bg-cover"
+    >
+      <div class="container">
+        <div class="flex flex-wrap justify-center items-center mx-auto px-4">
+          <div class="img w-full self-center">
+            <img src="./images/logo.svg" class="w-20 mx-auto mb-16" />
+          </div>
+          <div class="w-full mx-auto mt-4">
+            <h1
+              class="text-3xl font-extrabold text-center px-12 mb-4 text-primary"
+            >
+              A history of everything you copy
+            </h1>
+            <p class="text-center text-secondary px-8">
+              Clipboard allows you to track and organize everything you copy.
+              Instantly access your clipboard on all your devices.
+            </p>
+          </div>
+
+          <div class="button mt-6 text-white font-bold">
+            <button class="p-3 w-full lg:w-fit h-auto rounded-full bg-btn1">
+              Download for iOS
+            </button>
+            <button
+              class="p-3 bg-btn2 w-full lg:w-fit mt-4 h-auto rounded-full"
+            >
+              Download for Mac
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Hero -->
+
+    <!-- Keep track of your snippets -->
+    <section>
+      <div class="container">
+        <div class="mt-14 text-center mx-auto px-4">
+          <h3 class="text-3xl font-extrabold mb-4 px-14 text-primary">
+            Keep track of your snippets
+          </h3>
+          <p class="text-secondary px-6 mb-14">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Keep track of your snippets -->
+
+    <!-- Start Comp Image -->
+    <section>
+      <div class="comp-image container px-8 mb-14">
+        <img src="./images/image-computer.png" class="mb-10" />
+        <div class="text">
+          <div class="mb-10">
+            <h4 class="text-2xl mb-4 text-primary font-extrabold text-center">
+              Quick Search
+            </h4>
+            <p class="text-secondary text-center px-6">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </div>
+          <div class="mb-10">
+            <h4 class="text-2xl mb-4 text-primary font-extrabold text-center">
+              iCloud Sync
+            </h4>
+            <p class="text-secondary text-center px-6">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-2xl mb-4 text-primary font-extrabold text-center">
+              Complete History
+            </h4>
+            <p class="text-secondary text-center px-6">
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Comp Image -->
+
+    <!-- Start Clipboard -->
+    <section>
+      <div class="clipboard container mb-14">
+        <h3 class="text-3xl px-14 mb-4 text-primary font-extrabold text-center">
+          Access Clipboard anywhere
+        </h3>
+        <p class="text-secondary text-center px-6 mb-10">
+          Whether you’re on the go, or at your computer, you can access all your
+          Clipboard snippets in a few simple clicks.
+        </p>
+        <img src="./images/image-devices.png" alt="" class="px-6" />
+      </div>
+    </section>
+
+    <!-- End Clipboard -->
+
+    <!-- Start Supercharge -->
+    <section>
+      <div class="supercharge container mb-14">
+        <h3 class="text-3xl px-14 mb-4 text-primary font-extrabold text-center">
+          Supercharge your workflow
+        </h3>
+        <p class="text-secondary text-center px-14 mb-14">
+          We’ve got the tools to boost your productivity.
+        </p>
+        <div>
+          <div class="item">
+            <img
+              src="./images/icon-blacklist.svg"
+              alt=""
+              class="mx-auto mb-10"
+            />
+            <h5 class="text-2xl mb-4 text-primary font-extrabold text-center">
+              Create blacklists
+            </h5>
+            <p class="text-secondary text-center px-6 mb-10">
+              Ensure sensitive information never makes its way to your clipboard
+              by excluding certain sources.
+            </p>
+          </div>
+          <div class="item">
+            <img src="./images/icon-text.svg" alt="" class="mx-auto mb-10" />
+            <h5 class="text-2xl mb-4 text-primary font-extrabold text-center">
+              Plain text snippets
+            </h5>
+            <p class="text-secondary text-center px-6 mb-10">
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div class="item">
+            <img src="./images/icon-preview.svg" alt="" class="mx-auto mb-10" />
+            <h5 class="text-2xl mb-4 text-primary font-extrabold text-center">
+              Sneak preview
+            </h5>
+            <p class="text-secondary text-center px-6 mb-10">
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Supercharge -->
+
+    <!-- Start Commercial -->
+    <div
+      class="container flex flex-col w-1/2 justify-around items-center mx-auto h-screen mb-14"
+    >
+      <img src="./images/logo-google.png" alt="" />
+      <img src="./images/logo-ibm.png" alt="" />
+      <img src="./images/logo-microsoft.png" alt="" />
+      <img src="./images/logo-hp.png" alt="" />
+      <img src="./images/logo-vector-graphics.png" alt="" />
+    </div>
+
+    <!-- Start Commercial -->
+
+    <!-- Start Download button  -->
+    <section>
+      <div class="container mb-14">
+        <h3 class="text-3xl font-extrabold text-center px-12 mb-4 text-primary">
+          Clipboard for iOS and Mac OS
+        </h3>
+        <p class="text-center text-secondary px-8 mb-8">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you’re ready to start adding to your clipboard.
+        </p>
+        <div class="button mt-6 text-white font-bold w-3/5 mx-auto">
+          <button class="p-3 w-full lg:w-fit h-auto rounded-full bg-btn1 mb-4">
+            Download for iOS
+          </button>
+          <button class="p-3 w-full lg:w-fit h-auto rounded-full bg-btn2">
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Download button  -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" class="w-14 mx-auto mb-12" />
+        </div>
+        <div class="information text-center text-secondary px-8 mb-8">
+          <p class="mb-4">FAQs</p>
+          <p class="mb-4">Contact Us</p>
+          <p class="mb-4">Privacy Policy</p>
+          <p class="mb-4">Press Kit</p>
+          <p>Install Guide</p>
+        </div>
+        <div
+          class="sosmed flex justify-around items-center w-1/4 mx-auto mb-14"
+        >
+          <img src="./images/icon-facebook.svg" alt="" />
+          <img src="./images/icon-twitter.svg" alt="" />
+          <img src="./images/icon-instagram.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Agus Setiawan</a>.
+      </p>
+    </footer>
+  </body>
+</html>
